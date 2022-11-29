@@ -103,6 +103,11 @@
         display: flex;
     }
     
+    .pm {
+        display: flex;
+        justify-content: center;
+    }
+    
     .top-name {
         border: 1px solid gray;
         width: 55%;
@@ -152,15 +157,17 @@
 <div class="favour" style="margin-top:-22px;">
     <p class="top-name"> NASER AHMED ENGINEERING WORKS</p>
     <p class="top-num">CHQ-10737ENBD</p>
-
 </div>
-
+<div class="pm" style="margin-top:-22px;">
+    <p class="top-num">Payment Method:</p>
+</div>
 <table class="table-brdr">
     <thead>
         <tr class="row-color">
             <th>Innovence Number</th>
             <th>Description</th>
-            <th>Inv. Dte</th>
+            <th>Voucher_Ref</th>
+            <th>Inv. Date</th>
             <th>Inv. Amount</th>
             <th>Amount Paid</th>
         </tr>
@@ -169,12 +176,14 @@
         <tr>
             <td>26715</td>
             <td>PAYMENTS AGAINTS THE </br>TRAILER MAKING CHARGE</td>
+            <td></td>
             <td>12/31/21</td>
             <td>40,000.00</td>
             <td>38,35.00</td>
         </tr>
         <tr>
             <td>26716</td>
+            <td></td>
             <td></td>
             <td>12/31/21</td>
             <td>40,000.00</td>
@@ -183,13 +192,14 @@
         <tr>
             <td>26679</td>
             <td></td>
+            <td></td>
             <td>1/3/22</td>
             <td>40,000.00</td>
             <td>31,165.00</td>
         </tr>
 
         <tr class="row-color">
-            <th colspan="4" class="total">Total Amount Paid Qrs.</th>
+            <th colspan="5" class="total">Total Amount Paid Qrs.</th>
             <td>75,000.00</td>
         </tr>
 
